@@ -876,6 +876,24 @@ attribute_mappings:
   description: 'Recorded Time'
 place_holder_event: true
 ---
+data_type: 'microsoft365:ual:entry'
+attribute_mappings:
+- name: 'creation_time'
+  description: 'Recorded Time'
+place_holder_event: true
+---
+data_type: 'microsoft365:signin:entry'
+attribute_mappings:
+- name: 'creation_time'
+  description: 'Recorded Time'
+place_holder_event: true
+---
+data_type: 'microsoft365:entra_audit_log:entry'
+attribute_mappings:
+- name: 'activity_datetime'
+  description: 'Recorded Time'
+place_holder_event: true
+---
 data_type: 'msie:webcache:container'
 attribute_mappings:
 - name: 'access_time'
