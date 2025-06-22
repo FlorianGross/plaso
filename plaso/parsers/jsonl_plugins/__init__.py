@@ -11,5 +11,4 @@ from plaso.parsers.jsonl_plugins import gcp_log
 from plaso.parsers.jsonl_plugins import ios_app_privacy
 from plaso.parsers.jsonl_plugins import microsoft365_audit_log
 from plaso.parsers.jsonl_plugins import microsoft365_ual
-from plaso.parsers.jsonl_plugins import microsoft365_signin_log
 from plaso.parsers.jsonl_plugins import microsoft365_entra_audit_log

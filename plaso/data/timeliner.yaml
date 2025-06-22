@@ -891,7 +891,9 @@ place_holder_event: true
 data_type: 'microsoft365:entra_audit_log:entry'
 attribute_mappings:
 - name: 'activity_datetime'
-  description: 'Recorded Time'
+  description: 'Activity Time'
+- name: 'creation_time'
+  description: 'Log Creation Time'
 place_holder_event: true
 ---
 data_type: 'msie:webcache:container'
