@@ -884,7 +884,7 @@ place_holder_event: true
 ---
 data_type: 'microsoft365:signin:entry'
 attribute_mappings:
-- name: 'creation_time'
+- name: 'created_datetime'
   description: 'Recorded Time'
 place_holder_event: true
 ---
